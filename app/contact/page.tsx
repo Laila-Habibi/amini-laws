@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -47,9 +47,9 @@ const contactDetails = [
     title: "Office Hours",
     value: (
       <>
-        Monday–Friday
+        Mondayâ€“Friday
         <br />
-        9:00 AM–5:00 PM
+        9:00 AMâ€“5:00 PM
       </>
     ),
     icon: Clock3,
@@ -109,7 +109,7 @@ export default function ContactPage() {
       {/* Hero */}
       <section className="relative min-h-[540px] overflow-hidden bg-[#102f26]">
         <Image
-          src="/contact/contact-hero.jpg"
+          src="/legal-consultation.jpg"
           alt="Professional legal consultation office"
           fill
           priority
@@ -132,7 +132,7 @@ export default function ContactPage() {
             </div>
 
             <h1 className="mt-6 font-serif text-5xl leading-[1.08] text-white sm:text-6xl lg:text-6xl">
-              Let’s Discuss Your
+              Let&apos;s Discuss Your
               <br />
               <span className="italic text-[#d6a65e]">Legal Needs</span>
             </h1>
@@ -373,7 +373,7 @@ export default function ContactPage() {
             <div className="sticky top-28">
               <div className="relative min-h-[420px] overflow-hidden">
                 <Image
-                  src="/contact/legal-consultation.jpg"
+                  src="/consultation-meeting.jpg"
                   alt="Lawyer speaking with a client"
                   fill
                   className="object-cover"
@@ -452,8 +452,8 @@ export default function ContactPage() {
         <div className="grid lg:grid-cols-2">
           <div className="relative min-h-[500px] bg-[#e6ded2]">
             <Image
-              src="/contact/toronto-map.jpg"
-              alt="Map showing the Amini Laws Toronto office"
+              src="/amini-law-office.jpg"
+              alt="Amini Laws office"
               fill
               className="object-cover"
             />
@@ -515,7 +515,7 @@ export default function ContactPage() {
                       Business Hours
                     </p>
                     <p className="mt-1 text-sm leading-6 text-[#656c68]">
-                      Monday to Friday: 9:00 AM–5:00 PM
+                      Monday to Friday: 9:00 AMâ€“5:00 PM
                       <br />
                       Saturday and Sunday: Closed
                     </p>
@@ -646,3 +646,4 @@ export default function ContactPage() {
     </main>
   );
 }
+

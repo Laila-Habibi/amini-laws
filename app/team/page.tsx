@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -49,7 +49,7 @@ const lawyers = [
     image: "/team/leila-karimi.jpg",
     email: "leila@aminilaws.com",
     description:
-      "Leila focuses on protecting clients’ rights through careful preparation, negotiation and strong advocacy.",
+      "Leila focuses on protecting clientsâ€™ rights through careful preparation, negotiation and strong advocacy.",
     areas: ["Civil Litigation", "Employment Law", "Negotiation"],
   },
   {
@@ -214,7 +214,7 @@ export default function TeamPage() {
             <SectionHeading
               eyebrow="A Collaborative Legal Team"
               title="Knowledge, Strategy and Genuine Client Care"
-              description="At Amini Laws, our team combines professional experience with a personal approach. We work collaboratively to understand each client’s concerns, evaluate the available options and develop practical strategies."
+              description="At Amini Laws, our team combines professional experience with a personal approach. We work collaboratively to understand each clientâ€™s concerns, evaluate the available options and develop practical strategies."
               align="left"
             />
 
@@ -400,7 +400,7 @@ export default function TeamPage() {
         <div className="grid lg:grid-cols-2">
           <div className="relative min-h-[600px]">
             <Image
-              src="/team/founder.jpg"
+              src="/team/aryan-amini.jpg"
               alt="Aryan Amini, founder of Amini Laws"
               fill
               className="object-cover object-top"
@@ -432,8 +432,8 @@ export default function TeamPage() {
 
               <blockquote className="mt-8 border-l-2 border-[#d2a660] pl-6">
                 <p className="font-serif text-2xl italic leading-9 text-white/90">
-                  “We approach every case with the same commitment: listen
-                  carefully, prepare thoroughly and advocate with purpose.”
+                  â€œWe approach every case with the same commitment: listen
+                  carefully, prepare thoroughly and advocate with purpose.â€
                 </p>
 
                 <footer className="mt-5 text-xs font-semibold uppercase tracking-[0.14em] text-[#d2a660]">
@@ -487,7 +487,7 @@ export default function TeamPage() {
 
           <div className="relative min-h-[550px]">
             <Image
-              src="/team/legal-discussion.jpg"
+              src="/team/team-meeting.jpg"
               alt="Lawyers discussing a legal case"
               fill
               className="object-cover"

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -49,7 +49,7 @@ const practiceAreas = [
   {
     title: "Family Law",
     description:
-      "Compassionate guidance for life’s most personal legal matters.",
+      "Compassionate guidance for lifeâ€™s most personal legal matters.",
     icon: UsersRound,
   },
   {
@@ -510,7 +510,7 @@ export default function HomePage() {
                 className="relative border border-[#ded4c5] bg-white p-8 shadow-[0_12px_35px_rgba(38,51,45,0.05)]"
               >
                 <span className="font-serif text-5xl leading-none text-[#c9954b]">
-                  “
+                  â€œ
                 </span>
 
                 <p className="mt-2 min-h-[105px] text-sm leading-7 text-[#555d59]">
@@ -519,12 +519,12 @@ export default function HomePage() {
 
                 <div className="mt-6 flex items-end justify-between gap-4">
                   <p className="font-semibold text-[#173229]">
-                    — {testimonial.name}
+                    â€” {testimonial.name}
                   </p>
 
                   <div className="flex text-[#b47e32]">
                     {Array.from({ length: 5 }).map((_, index) => (
-                      <span key={index}>★</span>
+                      <span key={index}>â˜…</span>
                     ))}
                   </div>
                 </div>
@@ -565,7 +565,7 @@ export default function HomePage() {
       >
         <div className="absolute inset-0 opacity-10">
           <Image
-            src="/law-library.jpg"
+            src="/law-library-office.jpg"
             alt=""
             fill
             className="object-cover"

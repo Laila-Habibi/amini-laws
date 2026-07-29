@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -27,7 +27,7 @@ const featuredArticles = [
       "Learn how to prepare for your first meeting with a lawyer and what information you should bring.",
     category: "Legal Guidance",
     date: "July 14, 2026",
-    image: "/resources/consultation-guide.jpg",
+    image: "/consultation-meeting.jpg",
     href: "/resources/first-legal-consultation",
   },
   {
@@ -36,7 +36,7 @@ const featuredArticles = [
       "A practical overview of the steps you can take when facing a civil or business-related dispute.",
     category: "Litigation",
     date: "July 3, 2026",
-    image: "/resources/legal-dispute.jpg",
+    image: "/legal-client-meeting.jpg",
     href: "/resources/legal-dispute-rights",
   },
   {
@@ -45,7 +45,7 @@ const featuredArticles = [
       "Explore the legal documents, agreements and protections new business owners should consider.",
     category: "Business Law",
     date: "June 22, 2026",
-    image: "/resources/business-law.jpg",
+    image: "/law-office-consultation.jpg",
     href: "/resources/business-legal-considerations",
   },
 ];
@@ -231,7 +231,7 @@ export default function ResourcesPage() {
       {/* Hero */}
       <section className="relative min-h-[570px] overflow-hidden bg-[#102f26]">
         <Image
-          src="/resources/resources-hero.jpg"
+          src="/law-library-office.jpg"
           alt="Legal books and scales"
           fill
           priority
@@ -508,7 +508,7 @@ export default function ResourcesPage() {
 
           <div className="relative min-h-[570px] overflow-hidden">
             <Image
-              src="/resources/legal-library.jpg"
+              src="/law-library-office.jpg"
               alt="Legal library"
               fill
               className="object-cover"
@@ -603,7 +603,7 @@ export default function ResourcesPage() {
         <div className="mx-auto grid max-w-[1180px] overflow-hidden bg-[#efe6d8] lg:grid-cols-[0.85fr_1.15fr]">
           <div className="relative min-h-[360px]">
             <Image
-              src="/resources/newsletter.jpg"
+              src="/Why the Right Attorney is Irreplaceable in a___.jpg"
               alt="Legal notes and books"
               fill
               className="object-cover"
